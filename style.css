@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    font-family: "Lucida Console", cursive;
+}
+
+.A {
+    border: 5px solid black;
+    padding: 20px 20px 20px 20px;
+    background-color: rgba(119, 50, 93, 0.617);
+    font-family: 'Monaco', monospace; 
+}
+
+
+h3 {
+    text-align: center;
+    font-family: "Lucida Console", cursive;
+}
+
+.C {
+    text-align: center;
+    background-color: rgb(89, 20, 85);
+    font-family: 'Brush Script M7', cursive;
+    font-weight: 400;
+    color: white
+
+}
+
+body {
+    background-color: rgba(173, 63, 63, 0.606);
+  }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 3 D3 part</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class = "C">About Me!</h1>
+    <div id="scatterplot"></div>
+
+    <button id = 'navigationButton'>Learn about my Dance Journey!</button>
+
+    <script>
+      const navigationButton = document.getElementById('navigationButton')
+      navigationButton.addEventListener('click', function(){
+          window.location.href = 'test.html';
+      }
+      )
+  </script>
+
+    <p class = "A" >My name is Deekshita Madhalam and I am a second year Data Science and Business Administration major with a concentration in Finance 
+        at Northeastern University. I grew up in Quincy, MA which is about 30 minutes south of Boston since I was a child. On campus I am involved with 
+        numerous clubs such as NUWIT, CASE, and NU Malhar. On NUWIT I work as a Community Engagement Chair which means I work on social media 
+        and trying to reach out to new clubs and members who might be interested. On CASE I learned that I have interests within analytics and 
+        using this in the business realm. NU Malhar is where my true passion lies as this is my way to destress. This is an Indian 
+        Classical Team on campus and this is where I love to spend my time with. Dance has taught me so many skills such as determination, commitment 
+        to a task and also how to love something so intently that you put in all your time and effort into it. I believe all these skills and experiencs 
+        are required in a professional setting as well as these allow me to put in a lot of effort into the role and company I work for and also in turn
+        get a lot out of this company as well. <p>
+
+      <img src='IMG_7466.png' alt = 'Thats me!' width = 200>
+
+      <h3 class = "C"> My contact information is as follows: </h3>
+<ul class = 'A'>
+    <li>email: madhalam.d@northeastern.edu </li>
+    <li>instagram: <a href="https://www.instagram.com/deekshita_madhalam/">deekshita_madhalam</a></li>
+    <li>Phone: 111-111-1111</li>
+
+  </ul>
+
+    <script src='https://d3js.org/d3.v7.min.js'></script>
+    <script src='templete.js'></script>   
+</body>
+</html>
